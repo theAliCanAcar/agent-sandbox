@@ -1,0 +1,24 @@
+{
+  "name": "agent-sandbox",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Code-interpreter sandbox: run untrusted model-written JavaScript in a locked-down vm context with timeouts and captured logs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "agent-tools": "github:theAliCanAcar/agent-tools#main",
+    "zod": "^3.23.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theAliCanAcar/agent-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theAliCanAcar/agent-sandbox/issues"
+  },
+  "homepage": "https://github.com/theAliCanAcar/agent-sandbox#readme"
+}
